@@ -1,0 +1,92 @@
+@media screen and (min-width: 700px) {
+  main {
+
+  }
+
+  .div-botao {
+      width: 82vw;
+  }
+
+  section {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: center;
+      max-width: 95vw;
+      margin: 0 auto 0 auto;
+  }
+
+  .card {
+      width: 40vw;
+      align-self: center;
+      justify-self: center;
+  }
+
+  .card:first-child {
+      margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+    .cabecalho {
+        display: none;
+    }
+
+    .titulo-pagina {
+        display: block;
+        padding-top: 0.6rem;
+        padding-right: 1.5rem;
+        text-align: center;
+        width: 100%;
+        font-size: 1.4rem;
+        color: #333333;
+    }
+
+    .menu_lateral{
+        display: flex;
+        flex-direction: row;
+        padding-top: 0;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        width: 100vw;
+        height: 5rem;
+        background: #FFCB47;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    a {
+        border-bottom: none;
+    }
+
+    main {
+        padding-top: 8rem;
+    }
+
+    h1 {
+        margin-bottom: 1.8rem;
+    }
+
+    .div-botao {
+        width: 61vw;
+    }
+
+    .card {
+        width: 30vw;
+        align-self: center;
+        justify-self: center;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        max-width: 95vw;
+        margin: 0 auto 0 auto;
+    }
+
+}

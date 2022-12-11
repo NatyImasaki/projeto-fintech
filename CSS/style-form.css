@@ -1,0 +1,43 @@
+.div-form {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.4rem;
+}
+
+input {
+    height: 54px;
+}
+
+select {
+    height: 54px;
+}
+
+.form-select {
+    color: #6c757d;
+}
+
+.form-control {
+    color: #6c757d;
+}
+
+.btn {
+    margin: 2rem auto 0 auto;
+    display: block;
+    width: 260px;
+    height: 54px;
+    background-color: #FFCB47;
+    border-color: #FFCB47;
+    color: #333333;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+    background-color: #fad47b;
+    border-color: white;
+}
+
+.btn:active {
+    background-color: #fabb31;
+    border-color: white;
+}

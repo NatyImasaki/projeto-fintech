@@ -1,0 +1,72 @@
+.card {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50% 50%;
+    border-color: #C4C4C4;
+}
+.card h2 {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    color: #333333;
+    font-size: 1rem;
+}
+
+.card p {
+    color: #333333;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card span {
+    grid-column: 3 /3;
+    grid-row: 1 / span 3;
+    align-self: center;
+    justify-self: center;
+    background-color: #FFCB47;
+    color: #333333;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem
+}
+
+.status .status_titulo {
+    font-size: 1.2rem;
+}
+
+.titulo_um {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.valor_inicial {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.titulo_dois {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.valor_atual {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    padding-top: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+}

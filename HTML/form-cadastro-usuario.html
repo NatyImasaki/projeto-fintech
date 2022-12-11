@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro usuário</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../CSS/style-geral.css">
+  <link rel="stylesheet" href="../CSS/style-form.css">
+  <link rel="stylesheet" href="../CSS/responsive.css">
+  <script src="../script.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" async
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <div class="cabecalho">
+    <button class="cabecalho_menu"><i class="bi bi-list"></i></button>
+    <h1>Cadastro</h1>
+  </div>
+  <nav class="menu_lateral">
+    <a href="index.html">Dashboard</a>
+    <a href="form-cadastro-usuario.html">Perfil</a>
+    <a href="lista-despesas.html">Despesas</a>
+    <a href="#">Recebimentos</a>
+    <a href="#">Investimentos</a>
+  </nav>
+</header>
+<main>
+  <h1 class="titulo-pagina">Cadastro</h1>
+  <form action="index.html">
+    <div class="div-form">
+      <label for="nome">Nome completo</label>
+      <input type="text" class="form-control" id="nome" placeholder="Informe seu nome" required>
+    </div>
+    <div class="div-form">
+      <label for="cpf">CPF</label>
+      <input type="text" class="form-control" id="cpf" placeholder="Informe seu CPF" required>
+    </div>
+    <div class="div-form">
+      <label for="phone">Telefone</label>
+      <input type="tel" class="form-control" id="phone" placeholder="Informe seu telefone" required>
+    </div>
+    <div class="div-form">
+      <label for="mail">E-mail</label>
+      <input type="email" class="form-control" id="mail" placeholder="Informe seu e-mail" required>
+    </div>
+    <div class="div-form">
+      <label for="senha">Senha</label>
+      <input type="password" class="form-control" id="senha" placeholder="Insira uma senha" maxlength="8" minlength="4" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary ">Finalizar cadastro</button>
+  </form>
+</main>
+</body>
+</html>

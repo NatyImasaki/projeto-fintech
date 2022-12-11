@@ -1,0 +1,130 @@
+@media screen and (min-width: 700px) {
+    .card h2 {
+        grid-column: 1 / 1;
+        grid-row: 1 / span 3;
+        justify-self: center;
+    }
+
+    .card p {
+        grid-column: 2 / 2;
+        grid-row: 1 / span 3;
+        font-size: 1.2rem;
+        justify-self: center;
+        padding-top: 0.8rem;
+    }
+    .titulo_um {
+        justify-self: center;
+    }
+
+    .valor_inicial {
+        text-align: center;
+    }
+
+    .titulo_dois {
+        justify-self: center;
+    }
+
+    .valor_atual {
+        text-align: center;
+    }
+
+    .status {
+        width: 65vw;
+        margin: 0 auto 0 auto;
+    }
+
+    main {
+        padding-top: 6rem;
+
+    }
+
+    form {
+        width: 65vw;
+        margin: 0 auto 0 auto;
+    }
+}
+@media screen and (min-width: 1000px) {
+
+    .cabecalho {
+        display: none;
+    }
+
+    .titulo-pagina {
+        display: block;
+        padding-top: 0.6rem;
+        padding-right: 1.5rem;
+        text-align: center;
+        width: 100%;
+        font-size: 1.4rem;
+        color: #333333;
+    }
+
+    .menu_lateral{
+        display: flex;
+        flex-direction: row;
+        padding-top: 0;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        width: 100vw;
+        height: 5rem;
+        background: #FFCB47;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    a {
+        border-bottom: none;
+    }
+    main {
+        padding-top: 8rem;
+    }
+
+    h1 {
+        margin-bottom: 1.8rem;
+    }
+
+    .status {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        max-width: 900px;
+        margin: 0 auto 0 auto;
+        align-items: center;
+    }
+
+    .card {
+        margin-right: 0.8rem;
+        box-sizing: border-box;
+    }
+
+    .card h2 {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+        justify-self: flex-start;
+    }
+
+    .card p {
+        color: #333333;
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+        justify-self: flex-start;
+    }
+
+    .card span {
+        justify-self: center;
+    }
+
+    .card_alternativo {
+        grid-column: span 3;
+        grid-row: 2 / 2;
+    }
+
+    form {
+        max-width: 700px;
+        margin: 0 auto 0 auto;
+
+    }
+}
